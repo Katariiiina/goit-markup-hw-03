@@ -138,6 +138,7 @@ button {
 
 .hero-btn {
   display: block;
+  min-width: 169px;
   padding: 16px 32px;
   margin: 0 auto;
   border: none;
@@ -161,12 +162,36 @@ button {
   color: #fff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits-list-item {
+  calc((100% - 72px) / 4);
+}
+
 .benefits-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 .benefits-item-text {
@@ -174,7 +199,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 /*#end Benefits*/
