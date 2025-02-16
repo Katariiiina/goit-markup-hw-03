@@ -6,10 +6,30 @@ body {
 ul {
   list-style-type: none;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -17,9 +37,19 @@ button {
 /* #region header */
 .header {
   font-family: "Raleway", sans-serif;
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .nav-header {
+  display: flex;
+  align-items: center;
 }
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -28,6 +58,12 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+.head-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .logo-style {
   font-weight: 700;
   font-size: 18px;
@@ -36,11 +72,16 @@ button {
   text-transform: uppercase;
   color: #2e2f42;
 }
+
 .header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-.nav-header-item {
-}
+
 .item-nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,8 +94,12 @@ button {
 }
 .header-address {
   font-style: normal;
+  margin-left: auto;
+  gap: 40px;
 }
 .address-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -94,15 +139,11 @@ button {
 /* #end region her*/
 
 /*#Benefits*/
-.benefits {
-}
+
 .benefits-title {
   color: #fff;
 }
-.benefits-list {
-}
-.benefits-list-item {
-}
+
 .benefits-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -134,8 +175,7 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.workers-list {
-}
+
 .workers-list-item {
   background-color: #ffffff;
 }
@@ -158,8 +198,7 @@ button {
 /*#end workers
 
 /*#Portfolio*/
-.portfolio {
-}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -169,10 +208,7 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.portfolio-list {
-}
-.portfolio-list-item {
-}
+
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
