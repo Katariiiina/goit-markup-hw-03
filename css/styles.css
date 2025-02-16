@@ -179,7 +179,7 @@ button {
 }
 
 .benefits-list-item {
-calc((100% - 72px) / 4);
+calc(( 100% - 72px ) / 4);
 }
 
 .benefits-item-title {
