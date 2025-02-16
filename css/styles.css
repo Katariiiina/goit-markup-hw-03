@@ -157,12 +157,10 @@ button {
 /* #end region her*/
 
 /*#Benefits*/
-
-.benefits-title {
-  color: #fff;
+.benefits{
+  padding: 120px 0;
 }
-
-.visually-hidden {
+  .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -178,12 +176,10 @@ button {
 .benefits-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .benefits-list-item {
-  calc((100% - 72px) / 4);
+calc((100% - 72px) / 4);
 }
 
 .benefits-item-title {
