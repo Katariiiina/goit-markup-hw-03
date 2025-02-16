@@ -202,8 +202,17 @@ calc(( 100% - 72px ) / 4);
 /*#workers*/
 .workers {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
+
+.workers-list{
+  display: flex;
+  gap: 24px;
+}
+
 .workers-title {
+  margin-bottom: 72px;
+  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -215,6 +224,9 @@ calc(( 100% - 72px ) / 4);
 
 .workers-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .workers-list-title {
   font-weight: 500;
@@ -231,6 +243,11 @@ calc(( 100% - 72px ) / 4);
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+
+.workers-container{
+  padding: 32px 0;
 }
 /*#end workers
 
